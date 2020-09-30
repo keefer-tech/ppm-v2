@@ -2,7 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const exphbs = require("express-handlebars");
 const { getAuthToken } = require("./utils/utils");
-const { processApiData } = require("./models/spotify");
+const { processApiData } = require("./models/spotifyModel");
 const app = express();
 const port = process.env.PORT || 3000;
 
